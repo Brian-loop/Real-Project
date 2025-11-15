@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+        min-height: 100vh;
+    }
+    .header_html{
+        height: 4.85rem;
+        width: 100%;
+        max-width: 3440px;
+        border: 1px red solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem 0 3rem;
+    }
+    
+    .tela_burguer{
+        display: none;
+    }
+    .hamburguer{
+        height: 2.2rem;
+        width: 2.2rem;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hamburguer .linha1, .hamburguer .linha2, .hamburguer .linha3{
+        height: 0.3rem;
+        width: 2.5rem;
+        border-radius: 1rem;
+
+        background-color: black;
+
+    }
+    
+</style>
+<body class="body">
+    <header class="header_html">
+        <div class="header_container1">
+            😒logo
+        </div>
+        <div class="header_container2">
+            <a href="">Quero adotar!</a>
+            <a href="">Junte-se a nós</a>
+        </div>
+        <div class="header_container2">
+            <div class="hamburguer">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </div>
+        </div>
+        <div class="tela_burguer">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
