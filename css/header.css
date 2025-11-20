@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "open_sans";
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open_sans";
+}
+:root{
+    /* cores para os textos */
+    --cor_para_texto: #1A1A1A;
+    --cor_para_texto_claro: #2B2B2B;
+    --cor_preta: rgb(0,0,0);
+    /* cores para a pagina, botões, div, etc... */
+    --cor_principal_do_site:  #0e6abe;
+    --azul_tom_claro1: #3C8CD0;
+    --azul_tom_claro2: #66A7DD;
+    --azul_tom_claro3: #A2CAEC;
+    --azul_tom_oscuro1: #0B5999;
+    --azul_tom_oscuro2: #073D66;
+    --azul_tom_oscuro3: #04263F;
+    --verde_que_combina: #1ABC9C;
+    --ciano_que_combina: #2ECCFA;
+    /* cores para mensagens de avisos, notificações, erros, etc... */
+    --laranja_que_combina: #F39C12;
+    --amarelo_que_combina: #F1C40F;
+    --rosa_que_combina: #FF6F61;
+    /* cores neutros */
+    --cinza_tom1: #F5F7FA;
+    --cinza_tom2: #E1E8ED;
+    --cinza_tom3: #C7D0D9;
+    --cinza_tom4: #95A5A6;
+    --cinza_oscuro: #2D3E50;
+}
